@@ -1,0 +1,94 @@
+    .add_profile {
+        width: 125px;
+        height: 125px;
+        position: relative;
+        margin: auto;
+        margin-bottom: 30px;
+
+    }
+    .add_profile img {
+        width: 125px;
+        height: 125px;
+    }
+    .img_profile {
+        border-radius: 50%;
+        border: 5px solid #dcdcdc;
+        overflow: hidden;
+        width: 135px;
+        height: 135px
+    }
+    .add_profile .btn_profile {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .add_profile .btn_profile input {
+        position: fixed;
+        width: 25px;
+        opacity: 0;
+    }
+    .add_profile .btn_profile i {
+        font-size: 20px;
+        color: blue;
+    }
+    * {
+        font-family: saysettha ot;
+    }
+    .input {
+      position: relative;
+      width: 250px;
+      margin: 0 auto;
+    }
+    .input input {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid rgba(255,255,255,0.25);
+      background: #1d2b3a;
+      border-radius: 5px;
+      outline: none;
+      color: #fff;
+      font-size: 1em;
+      transform: 0.5s;
+      margin: 5px 0;
+    }
+    .input label {
+      position: absolute;
+      left: 0;
+      padding: 10px;
+      color: rgba(255,255,255,0.25);
+      font-size: 1em;
+      transition: 0.5s;
+      pointer-events: none;
+    }
+    .input input:valid ~ label,
+    .input input:focus ~ label {
+      color: #00dfc4;
+      transform: translateX(10px) translateY(-5px);
+      font-size: 0.65em;
+      padding: 0 10px;
+      background: #1d2b3a;
+      border-left: 1px solid #00dfc4;
+      border-right: 1px solid #00dfc4;
+      letter-spacing: 0.2em;
+    }
+    .input:nth-child(2) input:valid ~ label,
+    .input:nth-child(2) input:focus ~ label {
+      background: #00dfc4;
+      color: #1d2b3a;
+      border-radius: 2px;
+    }
+    .input_btn {
+        text-align: center;
+    }
+    .input select {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid rgba(255,255,255,0.25);
+      background: #1d2b3a;
+      border-radius: 5px;
+      outline: none;
+      color: #fff;
+      font-size: 1em;
+      transform: 0.5s;
+      margin: 5px 0;
+    }

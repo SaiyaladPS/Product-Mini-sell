@@ -1,0 +1,75 @@
+.form-edit{
+    position: absolute;
+    width: 500px;
+    margin: 100px 450px;
+    background: rebeccapurple;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    animation-name: form-edit;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+}
+
+@keyframes form-edit {
+    0%{
+        transform: translateY(-500px);      
+    }
+    50%{
+        transform: translateY(-0px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+}  
+
+.form-add{
+    position: absolute;
+    width: 500px;
+    margin: 100px 450px;
+    background: rebeccapurple;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    animation-name: form-edit;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+}
+
+@keyframes form-edit {
+    0%{
+        transform: translateY(-500px);      
+    }
+    50%{
+        transform: translateY(-0px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+}  
+
+.form-search{
+
+    position: absolute;
+    width: 500px;
+    margin: 100px 450px;
+    background: rebeccapurple;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    animation-name: form-edit;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+}
+
+@keyframes form-edit {
+    0%{
+        transform: translateY(-500px);      
+    }
+    50%{
+        transform: translateY(-0px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+} 

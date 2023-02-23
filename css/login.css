@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: saysettha ot;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(-170deg,#000000,#2d3041,rgb(38, 53, 39));
+}
+.inputbox{
+    position: relative;
+    width: 250px;
+    margin: 20px 0;
+}
+.inputbox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background:none;
+    border-radius: 5px;
+    outline: none;
+    color:#fff;
+    font-size: 1em;
+    transform: 0.5s;
+    font-family: saysettha ot;
+}
+.inputbox span {
+    position:absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.25);
+    text-decoration: uppercase;
+    transition: 0.5s;
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span{
+    color:#00dfc4;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.80em;
+    padding: 0 10px;
+    background: #1d2b3a;
+    border-left: 1px solid #00dfc4;
+    border-right: 1px solid #00dfc4;
+    letter-spacing: 0.2em;
+}
+.inputbox:nth-child(2) input:valid ~ span,
+.inputbox:nth-child(2) input:focus ~ span{
+    background:#00dfc4;
+    color: #1d2b3a;
+    border-radius: 2px;
+}
+.inputbox input:valid,
+.inputbox input:focus{
+    border: 1px solid #00dfc4;
+}
+.btn {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    left: 0;
+    top: 0;
+}
+.btn input {
+    margin:5px;
+    cursor: pointer;
+}
+.btn input:nth-child(2):hover{
+    background: red;
+    transition: all 0.5s ease;
+}
+.btn input:nth-child(1):hover{
+    background:green;
+    transition: all 0.5s ease;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+p {
+    color: white;
+    text-align: center;
+}
+p .fa-user {
+    font-size: 90px;
+}

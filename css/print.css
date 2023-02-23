@@ -1,0 +1,16 @@
+@page {
+    margin: 0;
+}
+
+.col-sm-2 {
+    display: none;
+}
+.container-fluid form {
+    display: none;
+}
+.container-fluid button {
+    display: none;
+}
+.container-fluid a {
+    display: none;
+}
